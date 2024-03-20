@@ -1,0 +1,235 @@
+ /* button-option */
+ .button-option {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 14px;
+  padding: 1em 2.7em;
+  font-weight: 500;
+  background: #1F2937;
+  color: white;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.6em;
+  
+  }
+  
+  .gradient {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 0.6em;
+  margin-top: -0.25em;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));
+  }
+  
+  .label {
+  position: relative;
+  top: -1px;
+  }
+  
+  .transition {
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  transition-duration: 500ms;
+  background-color: rgba(16, 185, 129, 0.6);
+  border-radius: 9999px;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  }
+  
+  .button-option:hover .transition {
+  width: 14em;
+  height: 14em;
+  }
+  
+  .button-option:active {
+  transform: scale(0.97);
+  }
+  #GFG {
+  text-decoration: none;
+  color: white;
+  }
+  
+   /* button-option1 */
+  .button-option1 {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 14px;
+  padding: 1em 2.7em;
+  font-weight: 500;
+  background: #1F2937;
+  color: white;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.6em;
+  
+  }
+  
+  .gradient {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 0.6em;
+  margin-top: -0.25em;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));
+  }
+  
+  .label {
+  position: relative;
+  top: -1px;
+  }
+  
+  .transition {
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  transition-duration: 500ms;
+  background-color: rgba(16, 185, 129, 0.6);
+  border-radius: 9999px;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  }
+  
+  .button-option1:hover .transition {
+  width: 14em;
+  height: 14em;
+  }
+  
+  .button-option1:active {
+  transform: scale(0.97);
+  }
+  
+  
+
+ /* card-group */
+ .card-group {
+    width: 100%;
+    max-width: 2000px;
+    background: white;
+    border-radius: 30px;
+    transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .shadow {
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+      0 0 0 2px rgb(190, 190, 190), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  }
+  
+  @media (max-width: 768px) {
+    .card-group {
+      height: auto;
+      border-radius: 0;
+    }
+  }
+
+ /* input-text */
+ .form-control {
+    max-width: 380px;
+    height: 44px;
+    background-color: #05060f0a;
+    border-radius: .5rem;
+    padding: 0 1rem;
+    border: 1px solid black;
+    font-size: 1rem;
+    transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+  }
+  
+  
+  .form-control:hover, .form-control:focus, .form-control-group:hover .form-control {
+    outline: none;
+    border-color: #05060f;
+  }
+  
+  .form-group:hover .label, .form-control:focus {
+    color: #05060fc2;
+  }
+
+  .container-fluid{
+    font-family: "Montserrat", sans-serif;
+  }
+
+.pad{
+    padding-left: 20px;
+}
+
+
+.card-group-update {
+    width: 100%;
+    max-width: 2000px;
+  
+    background: white;
+    border-radius: 30px;
+    transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  
+  @media (max-width: 768px) {
+    .card-group-update {
+      height: auto;
+      border-radius: 0;
+    }
+  }
+
+  .card-group-room {
+    width: 100%;
+    max-width: 2000px;
+   
+    background: white;
+    border-radius: 30px;
+    transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  
+  @media (max-width: 768px) {
+    .card-group-room {
+      height: auto;
+      border-radius: 0;
+    }
+  }
+
+  .card-group-dorm {
+    width: 100%;
+    max-width: 2000px;
+    background: white;
+    border-radius: 30px;
+    transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  
+  @media (max-width: 768px) {
+    .card-group-dorm {
+      height: auto;
+      border-radius: 0;
+    }
+  }
+
+  .card-group-insert {
+    width: 100%;
+    max-width: 2000px;
+   
+    background: white;
+    border-radius: 30px;
+    transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  
+  @media (max-width: 768px) {
+    .card-group-insert {
+      height: auto;
+      border-radius: 0;
+    }
+  }
+
+
+
+
+  
